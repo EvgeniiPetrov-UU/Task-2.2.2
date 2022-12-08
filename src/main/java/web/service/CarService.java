@@ -2,9 +2,9 @@ package web.service;
 
 import web.model.Car;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface CarService {
 
-    ArrayList<Car> getLimitCarList(int count);
+    List<Car> getLimitCarList(int count);
 }

@@ -2,21 +2,21 @@ package web.model;
 
 public class Car {
 
-    private Long id;
+    private int id;
     private String brand;
     private String model;
 
-    public Car(Long id, String brand, String model) {
+    public Car(int id, String brand, String model) {
         this.id = id;
         this.brand = brand;
         this.model = model;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
